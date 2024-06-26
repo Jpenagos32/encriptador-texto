@@ -29,8 +29,6 @@ const desencriptar = () => {
 
 const footerParagraph = document.getElementById('footer-copy')
 const actualYear = new Date().getFullYear()
-let footerText = 'Copy '
-footerText += '\u00A9 '
-footerText += actualYear
-footerText += ' Julian Andres Penagos'
+
+let footerText = `Copy \u00A9 ${actualYear} Julian Andres Penagos`
 footerParagraph.innerHTML = footerText
