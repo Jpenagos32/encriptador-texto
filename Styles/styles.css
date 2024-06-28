@@ -45,6 +45,7 @@ textarea {
   width: 100%;
   color: var(--color-principal);
   font-family: var(--fuente-parrafos);
+  text-transform: lowercase;
 }
 
 textarea:focus {
